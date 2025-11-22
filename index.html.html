@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Project A</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .hero {
+            background: rgba(255,255,255,0.8);
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .login-box {
+            background: white;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <header>
+        <h1>Our Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team-members.html">Team Members</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Our Website</h2>
+        <p>This is our CAT2 Group Project.</p>
+    </section>
+
+    <section class="login-box">
+        <h3>Login</h3>
+
+        <form>
+            <label>Username:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" required><br><br>
+
+            <!-- Inline CSS (required) -->
+            <button style="background: blue; color: white; padding: 8px 10px; border: none; border-radius: 4px;">
+                Login
+            </button>
+        </form>
+
+        <br>
+
+        <!-- Button linking to team-members.html -->
+        <button onclick="location.href='team-members.html'">View Team Members</button>
+    </section>
+
+    <footer class="site-footer">
+        <p>Follow us: Facebook | Twitter | Instagram</p>
+        <p>&copy; group 25</p>
+    </footer>
+
+</div>
+</body>
+</html>
